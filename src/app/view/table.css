@@ -1,0 +1,24 @@
+/* Basic table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px 20px;
+}
+.user-data{
+    text-align: center;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    text-wrap: nowrap;
+    white-space: nowrap;
+    padding: 10px 20px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.user-data{
+    overflow-x: scroll;
+}
